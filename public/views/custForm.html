@@ -1,0 +1,34 @@
+!-- CUSTOMER FORM
+this section should HIDE and SHOW depending selection  -->
+
+
+<!--Custome that select to do a WALK IN appoitment  -->
+<div class="apptNewCust" >
+    <h1>Welcome New Customer</h1>
+    <form>
+        First Name:<br> <input type="text" name="custFirstName"><br>
+        Last Name:<br> <input type="text" name="custLastName"><br>
+        Email:<br> <input type="text" name="custEmail"><br>
+        Phone:<br> <input type="text" name="custPhone"><br>
+        Date:<br><input type="date" name="dayAppt"><br>
+        Time:<br><input type="time" name="hourAppt">
+        <br><br><button>Submit</button>
+        <button>Clear</button>
+    </form>
+</div>
+  <!-- https://docs.angularjs.org/api/ng/input/input%5Btime%5D -->
+
+
+  <!--Existing customer, Information should come from database  -->
+  <div class="apptExtCust" >
+    <h1>Welcome {{cust.firstName}} Customer</h1>
+    <form>
+
+        Email:<br> <input type="text" name="custEmail" value="{{cust.email}}"><br>
+        Phone:<br> <input type="text" name="custPhone" value="{{cust.phone}}"><br>
+        Date:<br><input type="date" name="dayAppt"><br>
+        Time:<br><input type="time" name="hourAppt">
+        <br><br><button>Submit</button>
+        <button>Clear</button>
+    </form>
+</div>

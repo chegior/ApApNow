@@ -1,0 +1,15 @@
+<h1>REGISTER</h1>
+
+<div class="apptNewCust" >
+    <h1>Welcome New Customer</h1>
+    <form>
+        First Name:<br> <input type="text" ng-model="cust.firstName"><br>
+        Last Name:<br> <input type="text" ng-model="cust.lastName"><br>
+        Email:<br> <input type="text" ng-model="cust.email"><br>
+        Phone:<br> <input type="text" ng-model="cust.phone"><br>
+        Username:<br><input type="text" ng-model="cust.user"><br>
+        Password:<br><input type="text" ng-model="cust.pass">
+        <br><br><button ng-click='registerCust(cust)'>Submit</button>
+        <button ng-click='clearFields()'>Clear</button>
+    </form>
+</div>
