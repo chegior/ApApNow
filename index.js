@@ -21,6 +21,8 @@ app.get('/api/customers',dbCtrl.getCustomers);
 
 app.post('/api/newCustomer',dbCtrl.newCustomer);
 
+app.post('/api/userAccess',dbCtrl.loginUser)
+
 
 
 ////////TESTING AREA//////////////////////////////////////////////

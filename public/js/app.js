@@ -7,7 +7,8 @@ angular.module('apapnow',['ui.router'])
     })
     .state('book',{
       url:'/book',
-      templateUrl:'./views/book.html'
+      templateUrl:'./views/book.html',
+      controller: 'bookedCtrl'
     })
     .state('contact',{
       url:'/contact',
