@@ -1,0 +1,69 @@
+*{
+
+}
+
+body {
+  background-color: gray;
+
+}
+
+ul {
+  display:flex;
+  flex-direction: row;
+}
+
+li {
+  color:gray;
+  text-decoration: none;
+  list-style: none;
+}
+a {
+  padding:20px 10px;
+  color:white;
+  text-decoration: none;
+}
+a:hover {
+  font-size: 20px;
+  color:yellow;
+}
+a:active  {
+
+  color:gray;
+  font-weight: bold;
+}
+
+
+/***********CLASSES**********/
+/***********CLASSES**********/
+
+.mainWrapper {
+  background-color: black;
+
+  display: flex;
+  flex-direction:column;
+  align-items: space-between;
+
+}
+
+.header{
+  flex:1;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.content{
+  background-color: white;
+  width:100%;
+  height:800px;
+}
+
+.bottom-container{
+  flex:1;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+
+}
