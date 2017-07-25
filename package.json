@@ -13,5 +13,14 @@
     "express": "^4.15.3",
     "cors": "^2.8.3",
     "massive": "^3.0.0-rc1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chegior/ApApNow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chegior/ApApNow/issues"
+  },
+  "homepage": "https://github.com/chegior/ApApNow#readme"
 }
