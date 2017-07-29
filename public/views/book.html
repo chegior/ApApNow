@@ -1,1 +1,15 @@
 <h1>BOOK NOW</h1>
+
+<form class="apptSet" action="index.html" method="post">
+  <h1>Welcome {{customer.firstname}}</h1>
+    <form>
+
+        We will be sending you a confirmation to:<br> {{customer.email}}<br>
+        Your phone on file is :<br> {{customer.phone}}<br>
+        Date:<br><input type="date" name="dayAppt"><br>
+        Time:<br><input type="time" name="hourAppt">
+        <br><br><button>Submit</button>
+        <button>Clear</button>
+    </form>
+
+</form>
