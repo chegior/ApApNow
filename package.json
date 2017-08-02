@@ -10,9 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.3",
     "cors": "^2.8.3",
-    "massive": "^3.0.0-rc1"
+    "express": "^4.15.3",
+    "massive": "^3.0.0-rc1",
+    "passport-google-oauth20": "^1.0.0"
   },
   "devDependencies": {},
   "repository": {
