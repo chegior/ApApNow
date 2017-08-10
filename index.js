@@ -66,8 +66,8 @@ passport.use(new GoogleStrategy({
 // }
 
 
- app.get('/auth/google', passport.authenticate('google', { scope:'https://www.googleapis.com/auth/plus.login'}));
-//app.get('/auth/google', passport.authenticate('google', { scope: ['profile', 'email']}));
+// app.get('/auth/google', passport.authenticate('google', { scope:'https://www.googleapis.com/auth/calendar'}));
+app.get('/auth/google', passport.authenticate('google', { scope: ['profile', 'email']}));
 
 app.get('/auth/google/callback',
 passport.authenticate('google', { failureRedirect: '/auth/google' }),

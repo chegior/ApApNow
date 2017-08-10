@@ -81,7 +81,6 @@ a:active  {
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color:gray;
 }
 
@@ -89,17 +88,24 @@ a:active  {
   flex:1;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   padding: 20px;
 
 }
+.address_phone{
+  font-family: arial;
+  font-size: 18px;
+  text-align: center;
+}
 .map{
-  flex:2;
+  padding: 0px,10px;
+  flex:1;
 }
 
 .cell_row_info{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  align-content: center; 
 }
 .social{
   display: flex;
@@ -160,4 +166,24 @@ a:active  {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.content{
+  background-color: gray;
+  height:900px;
+}
+.content h1{
+  color: white;
+  text-align: center;
+}
+
+.apptSet{
+  font-family: arial;
+  font-size: 19px;
+  text-align: center;;
+  
+}
+.loginForm{
+  background-color;
+  font-size: 19px;
+  text-align: center;;
 }
