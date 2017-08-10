@@ -19,7 +19,7 @@ li {
 }
 
 strong{
-  color:black;
+  color:dodgerblue;
 }
 
 /***********CLASSES**********/
@@ -27,6 +27,7 @@ strong{
 
 .mainWrapper {
   background-color: black;
+  
 
   display: flex;
   flex-direction:column;
@@ -64,16 +65,16 @@ strong{
   height: 500px;
   display: flex;
   flex-direction: column;
-  background: url("https://files.slack.com/files-pri/T039C2PUY-F6CEF2SE9/bigstock-man-getting-trendy-haircut-in--172696487.jpg") ;
-  background-size: cover;
-  background-position: center;
+
 }
 
 .contact{
   padding-bottom: 30px;
   display: flex;
   flex-direction: column;
-  background-color:gray;
+  background-color:black;
+  opacity:0.8;  
+
 }
 
 .info{
@@ -85,13 +86,15 @@ strong{
 
 }
 .address_phone{
+ 
   color:white;
   font-family: arial;
   font-size: 18px;
   text-align: center;
 }
 .map{
-  padding: 0px,10px;
+  
+  padding: 50px,10px;
   flex:1;
 }
 
@@ -105,16 +108,21 @@ strong{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: white;
+  background-color: rgb(244, 250, 248,0.5);
+  opacity:0.8;  
+
 }
-.title2 h1{
-  color:dodgerblue;
+.title2 h2{
+  color:dodgerblue !important;
   text-align: center;
   font-style: italic;
+  font-size: 70px;
+  font-family:'Tangerine';
+  font-weight: bolder;
 }
 
 .title h1{
-  color:black;
+  color:black ;
   text-align: center;
   font-style: italic;
 }
@@ -127,9 +135,7 @@ strong{
 }
 
 
-.social_media{
-  background: rgb(244, 250, 248);
-}
+
 .social_media h1{
   text-align: center;
 }
@@ -150,16 +156,7 @@ strong{
   padding: 10px 10px;
   width: 100px;
 }
-.footer_section{
-    background: rgb(244, 250, 248);
-}
 
-.footer_section p{
-  padding: 20px;
-  font-size: 8px;
-  font-family: sans-serif;
-  text-align: center;
-}
 .sm_group{
   flex:1;
   display: flex;
@@ -169,11 +166,13 @@ strong{
 }
 .content{
   background: url("https://files.slack.com/files-pri/T039C2PUY-F6CEF2SE9/bigstock-man-getting-trendy-haircut-in--172696487.jpg");
-  background-color: gray;
   height:900px;
+  background-size: cover;
+  background-position: center;
+ 
 }
 .content h1{
-  /* color: white; */
+  color: white !important; 
   text-align: center;
   font-size: 70px;
   font-family:'Tangerine';
@@ -228,4 +227,7 @@ h2{
   display: flex;
   flex-direction: column; 
   align-items: center;  
+}
+form input{
+  color:dodgerblue;
 }
