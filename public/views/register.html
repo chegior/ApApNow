@@ -1,15 +1,46 @@
-<h1>REGISTER</h1>
-
 <div class="apptNewCust" >
+
+<h1>Register</h1>
+
+
     <h1>Welcome New Customer</h1>
-    <form>
-        First Name:<br> <input type="text" ng-model="cust.firstName"><br>
-        Last Name:<br> <input type="text" ng-model="cust.lastName"><br>
-        Email:<br> <input type="text" ng-model="cust.email"><br>
-        Phone:<br> <input type="text" ng-model="cust.phone"><br>
-        Username:<br><input type="text" ng-model="cust.user"><br>
-        Password:<br><input type="text" ng-model="cust.pass">
-        <br><br><button ng-click='registerCust(cust)'>Submit</button>
-        <button ng-click='clearFields()'>Clear</button>
+    <form class="regForm">
+        <table>
+            <tr>
+                <td> First Name:  </td>
+                <td> <input type="text" ng-model="cust.firstName">  </td>
+            </tr>
+            <tr>
+                <td> Last Name:   </td>
+                <td> <input type="text" ng-model="cust.lastName"></td>
+            </tr>
+            <tr>
+                <td> Email:  </td>
+                <td><input type="text" ng-model="cust.email"> </td>
+            </tr>
+            <tr>
+                <td> Phone:   </td>
+                <td> <input type="text" ng-model="cust.phone">  </td>
+            </tr>
+            <tr>
+                <td> Username:  </td>
+                <td><input type="text" ng-model="cust.user">     </td>
+            </tr>
+            <tr>
+                <td> Password:  </td>
+                <td> <input type="text" ng-model="cust.pass"></td>
+            </tr>
+
+        </table>
+         <br>
+        
+         
+        
+        
+        <br>
+        <div class="refFormButton">
+            <button ng-click='registerCust(cust)' class="btn-primary">Submit</button>
+            <button ng-click='clearFields()' class ="btn-danger">Clear</button>
+        </div>
     </form>
 </div>

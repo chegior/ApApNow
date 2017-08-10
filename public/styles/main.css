@@ -17,21 +17,10 @@ li {
   text-decoration: none;
   list-style: none;
 }
-a {
-  padding:20px 10px;
-  color:white;
-  text-decoration: none;
-}
-a:hover {
-  font-size: 20px;
-  color:gray;
-}
-a:active  {
 
-  color:gray;
-  font-weight: bold;
+strong{
+  color:black;
 }
-
 
 /***********CLASSES**********/
 /***********CLASSES**********/
@@ -50,6 +39,9 @@ a:active  {
   color: white;
   display: flex;
   flex-direction: row;
+}
+
+.nav{
 }
 
 .content{
@@ -93,6 +85,7 @@ a:active  {
 
 }
 .address_phone{
+  color:white;
   font-family: arial;
   font-size: 18px;
   text-align: center;
@@ -105,16 +98,23 @@ a:active  {
 .cell_row_info{
   display: flex;
   flex-direction: row;
+  flex-direction: column;
   align-content: center; 
 }
-.social{
+.social_media{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
   background-color: white;
+}
+.title2 h1{
+  color:dodgerblue;
+  text-align: center;
+  font-style: italic;
 }
 
 .title h1{
+  color:black;
   text-align: center;
   font-style: italic;
 }
@@ -168,12 +168,17 @@ a:active  {
   align-items: center;
 }
 .content{
+  background: url("https://files.slack.com/files-pri/T039C2PUY-F6CEF2SE9/bigstock-man-getting-trendy-haircut-in--172696487.jpg");
   background-color: gray;
   height:900px;
 }
 .content h1{
-  color: white;
+  /* color: white; */
   text-align: center;
+  font-size: 70px;
+  font-family:'Tangerine';
+  font-weight: bolder;
+
 }
 
 .apptSet{
@@ -186,4 +191,20 @@ a:active  {
   background-color;
   font-size: 19px;
   text-align: center;;
+}
+
+h2{
+  text-align: center;
+}
+
+.apptNewCust{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;   
+}
+.regForm{
+  font-size: 25px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;  
 }

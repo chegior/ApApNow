@@ -5,19 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    
     <title>Appoitment App</title>
   </head>
   <body>
     <div class="mainWrapper">
       <section class="home-page-top-container">
         <header>
-            <nav>
-                <ul>
+            <nav class="container-fluid">
+                <ul class="nav navbar-nav navbar-left">
                     <li><a ui-sref="home">About</a></li>
                     <li><a ui-sref="book">Book Now</a></li>
                     <li><a ui-sref="contact">Contact</a></li>
-                    <li><a ui-sref="login">Log In</a></li>
+                    <li><Log In</a></li>
+                    
                 </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li><a ui-sref="register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a ui-sref="login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              </ul>
             </nav>
         </header>
 
@@ -27,15 +36,14 @@
       <ui-view></ui-view>
     </div>
 
-
-    <section class="bottom-container">
+<!-- <section class="bottom-container">
       <header>
           <footer>
               <p>Xero54</p>
           </footer>
       </header>
 
-  </section>
+  </section> -->
 
 
     </div>
