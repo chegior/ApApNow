@@ -40,9 +40,7 @@ app.use('/', function(req,res,next){
   }next();
 });
 
-app.get('/userG',function(req,res){
-  console.log("YOU ARE IN THE USER", res.profile.email);
-});
+
 
 app.get('/api/customers',dbCtrl.getCustomers);
 app.post('/api/newCustomer',dbCtrl.newCustomer);
