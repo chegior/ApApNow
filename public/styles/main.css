@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: gray;
+  background-color: black;
 
 }
 
@@ -35,15 +35,20 @@ strong{
 
 }
 
-.header{
+header{
+  
   flex:1;
   color: white;
   display: flex;
   flex-direction: row;
 }
-
-.nav{
+/* .home-page-top-container{
+  position:static;
 }
+
+.navigation{
+  position:static;
+} */
 
 .content{
   background-color: white;
@@ -108,8 +113,8 @@ strong{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: rgb(244, 250, 248,0.5);
-  opacity:0.8;  
+  background-color: rgba(244, 250, 248,0.5);
+  /* opacity:0.8;   */
 
 }
 .title2 h2{
